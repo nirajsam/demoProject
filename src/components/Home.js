@@ -11,6 +11,7 @@ function home() {
     <div className="corosel" style={{justifyContent:"center"}}>
     <Carousel>
   <Carousel.Item interval={1000}>
+  
     <img
       className=" w-100"
       src="https://www.forecasttrendz.com/images/sample/portfolio12-big.jpg"

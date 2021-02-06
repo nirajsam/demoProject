@@ -3,10 +3,12 @@
   padding-bottom: 1%;
   padding-right: 1%;
   height:100px;
+  
 }
 .corosel > img{
   
-  height:100px
+  height:100px;
+  z-index: -1;
 }
 .contact{
   
@@ -20,7 +22,8 @@
   background-image: url("https://images.squarespace-cdn.com/content/v1/5afd9686697a9872b1f172d6/1547175642626-OH1G0Y5TL7V5C19RUR5L/ke17ZwdGBToddI8pDm48kFXT1WNnugcsz8dhbXCVp8BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIa7-H3TkIBR7XAb6Eynbtk2fNt7ipupn4xMZ5IXhauvkKMshLAGzx4R3EDFOm1kBS/draft+policy+pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 570px;
+  height: 540px;
+  margin-top: 0;
 }
 .about{
   background-image: url("https://st2.depositphotos.com/1265075/8085/i/950/depositphotos_80854270-stock-photo-about-me-key-button.jpg");
@@ -60,6 +63,10 @@
   .query > label > input , textarea {
     width: 200px;
   }
+  .work{
+    height: 100%;
+    margin-bottom: 10%;
+  }
  }
 #link{
   color: white;
@@ -68,3 +75,35 @@
 #lk :hover{
  color: aqua;
 }
+/* .container {
+  width: 30em;
+  height: 30em;
+  overflow: hidden;
+  background-color: rgba(147, 215, 241, 0.87);
+  border-radius: 5%;
+  box-shadow: 1em 1em 0.8em rgba(43, 74, 87, 0.87);
+} */
+
+/* .wave {
+  width: 180em;
+  height: 190em;
+  top: 10%;
+  left: 70%;
+  right: -90%;
+  position: relative;
+  border-radius: 35%;
+  overflow: hidden;
+  background: rgba(29, 185, 212, 0.89);
+  animation: wave 15s linear infinite;
+  z-index: 1;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */
