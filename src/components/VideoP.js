@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import video from '../../src/videos/ekart_record.mp4'
 import qvideo from '../../src/videos/quiz_record.mp4'
+import car from '../../src/videos/car.mp4'
 
 function VideoP(props) {
     const [state, setstate] = useState('')
@@ -49,7 +50,23 @@ function VideoP(props) {
             </div>
             
         </div>)
-    }
+    }else if(props.sel=='car'){
+        return(
+        <div className="row" style={{padding:"1%", marginBottom:"5%"}}>
+            
+            <div className="col-lg-6">
+                <video width="100%" height="500" muted autoplay="true" loop controls>
+                    <source src={car} type="video/mp4"/>
+                </video>        
+            </div>
+            <div className="col-lg-6">
+                <h4>about</h4>
+                <p>This is basic python game , i made this game using pygame liabrary of python.
+                    </p> 
+                    <div className="center"><button onClick={e=>{return window.location.reload()}}>Back Home</button></div>
+            </div>
+            
+        </div>)}
 }
 
 export default VideoP

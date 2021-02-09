@@ -8,7 +8,7 @@
 .corosel > img{
   
   height:100px;
-  z-index: -1;
+  
 }
 .contact{
   
@@ -22,7 +22,7 @@
   background-image: url("https://images.squarespace-cdn.com/content/v1/5afd9686697a9872b1f172d6/1547175642626-OH1G0Y5TL7V5C19RUR5L/ke17ZwdGBToddI8pDm48kFXT1WNnugcsz8dhbXCVp8BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIa7-H3TkIBR7XAb6Eynbtk2fNt7ipupn4xMZ5IXhauvkKMshLAGzx4R3EDFOm1kBS/draft+policy+pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 540px;
+  height: 570px;
   margin-top: 0;
 }
 .about{
@@ -37,9 +37,7 @@
   position: relative;
   justify-content: center;
 }
-.header{
-  justify-content: center;
-}
+
 .footer{
   position: relative;
   height: 40px;
@@ -67,7 +65,17 @@
     height: 100%;
     margin-bottom: 10%;
   }
+  .profile{
+    width: 100px;
+    height: 80px;
+  }
+  .work{
+    height: 100%;
+  }
+  
  }
+ 
+
 #link{
   color: white;
   text-decoration: none;
@@ -75,6 +83,19 @@
 #lk :hover{
  color: aqua;
 }
+.com{
+  margin-top: 400px;
+}
+.profile{
+  width: 15%;
+  height: 32%;
+}
+@media (max-width: 768px) {
+  .profile{
+    width: 90px;
+    height: 100px;
+  }
+ }
 /* .container {
   width: 30em;
   height: 30em;

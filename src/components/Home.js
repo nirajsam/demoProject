@@ -1,5 +1,8 @@
 import react from 'react';
 import { Button, Navbar, Nav,Container,NavDropdown,Carousel } from 'react-bootstrap';
+import MyWork from './MyWork';
+import About from './About';
+import Contact from './Contact'
 
 
 
@@ -19,7 +22,7 @@ function home() {
       height="500"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      <h3>Hello...</h3>
       <p></p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -31,7 +34,7 @@ function home() {
       height="500"
     />
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3>people!!!</h3>
       <p></p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -43,14 +46,18 @@ function home() {
       height="500"
     />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3>...........</h3>
       <p></p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-    </div>
+    </div><br/>
     </main>
-    
+    <div className="com">
+    <About/>
+  <MyWork/>
+  <Contact/> 
+  </div> 
     </div>
   );
 }

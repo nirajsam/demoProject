@@ -3,11 +3,13 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Navbar, Nav,Container,NavDropdown } from 'react-bootstrap';
 import {BrowserRouter,Route,Link, Redirect,Switch} from 'react-router-dom'
-import home from './components/Home';
+import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import MyWork from './components/MyWork';
 import { Facebook, Instagram, Linkedin } from 'react-bootstrap-icons';
+import profile from '../src/videos/sam.jpg'
+
 
 
 function App() {
@@ -15,8 +17,8 @@ function App() {
     <BrowserRouter>
     <div className="App">
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <img src="https://media.gettyimages.com/photos/woman-lifts-her-arms-in-victory-mount-everest-national-park-picture-id507910624?s=612x612"  width="30" height="30" style={{borderRadius:"50%"}}/>&nbsp;&nbsp;
-      <Navbar.Brand><Link to="/home" id="link">Home</Link></Navbar.Brand>
+    <img src={profile}  width="30" height="30" style={{borderRadius:"50%",transform: "rotate(-90deg)"}}/>
+      <span className="home"><Link to="/home" id="link" ><b className="text-left">Home</b></Link></span>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -37,6 +39,7 @@ function App() {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    
     <footer className="bg-dark footer fixed-bottom">
       <div class="d-flex justify-content-between mb-3">
       <div class="p-2">&copy;  copyright Niraj sam</div>
@@ -50,7 +53,7 @@ function App() {
     </div>
     <div className="content">
               {/* <Route path="/upload" component={FileUpload}/> */}
-              <Route path={"/home"}component={home}/>
+              <Route path={"/home"}component={Home}/>
               <Route path="/" exact={true}><Redirect to="/home"></Redirect></Route>
               <Route path={"/contact"}component={Contact}/>
               <Route path={"/about"}component={About}/>
