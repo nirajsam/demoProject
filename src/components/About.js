@@ -1,5 +1,6 @@
 import React from 'react'
 import { Facebook, Hexagon, DiResponsive} from 'react-bootstrap-icons';
+import resume from '../../src/videos/Resume_Niraj-compressed.pdf'
 
 
 function About() {
@@ -14,7 +15,7 @@ function About() {
                 Currently working on Infosys.
                 I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</h3>
                 <p>Here you can refer to my resume for more information about me</p>
-                <a href="../../public/c.jpg" download>
+                <a href={resume} download="resume">
                 download
                 </a>
                 
