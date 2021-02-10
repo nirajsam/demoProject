@@ -40,7 +40,7 @@ function App() {
       </Navbar.Collapse>
     </Navbar>
     
-    <footer className="bg-dark footer fixed-bottom">
+    <footer className="bg-dark footer">
       <div class="d-flex justify-content-between mb-3">
       <div class="p-2">&copy;  copyright Niraj sam</div>
       <div class="p-2"><a href="https://www.facebook.com/profile.php?id=100009016844805"><Facebook style={{fontSize:"20px",color:"white"}}/></a>
