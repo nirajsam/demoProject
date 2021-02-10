@@ -20,7 +20,11 @@ export default class MyWork extends Component {
     render() {
         
         if(this.state.selectVideo!==""){
-            return <VideoP sel={this.state.selectVideo}/>
+            return (
+                <div>
+                <div className="text-right"><button className="btn btn-success" onClick={e=>{return this.setState({selectVideo:''})}}>Back Home</button></div>
+            <VideoP sel={this.state.selectVideo}/>
+            </div>)
         }
         return (
             <div className="work ">

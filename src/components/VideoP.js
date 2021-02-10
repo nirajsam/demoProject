@@ -28,7 +28,7 @@ function VideoP(props) {
                     <b>admin:</b> He can see all users , verify them as student and teachers<br/>
                     <b>Link: </b> <a href="https://nirajsam-quizapp.netlify.app"> test app link</a>
                     </p>
-                    <div className="center"><button onClick={e=>{return window.location.reload()}}>Back Home</button></div>
+                    
             </div>
         </div>
         
@@ -48,7 +48,7 @@ function VideoP(props) {
                     <b>seller:</b> add  edit, delete, see, products , see order of customers<br/>
                     <b>users:</b> see, order, add cart, rate, comment on prducts
                     </p> 
-                    <div className="center"><button onClick={e=>{return window.location.reload()}}>Back Home</button></div>
+                    
             </div>
             
         </div>)
@@ -66,7 +66,7 @@ function VideoP(props) {
                 <p>This is basic python game , i made this game using pygame liabrary of python.
                     It took 2 days to complete this game.
                     </p> 
-                    <div className="center"><button onClick={e=>{return window.location.reload()}}>Back Home</button></div>
+                    
             </div>
             
         </div>)}
