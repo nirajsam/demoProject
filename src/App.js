@@ -41,12 +41,12 @@ function App() {
     </Navbar>
     
     <footer className="bg-dark footer">
-      <div class="d-flex justify-content-between mb-3">
-      <div class="p-2">&copy;  copyright Niraj sam</div>
-      <div class="p-2"><a href="https://www.facebook.com/profile.php?id=100009016844805"><Facebook style={{fontSize:"20px",color:"white"}}/></a>
+      <div className="d-flex justify-content-between mb-3">
+      <div className="p-2">&copy;  copyright Niraj sam</div>
+      <div className="p-2"><a href="https://www.facebook.com/profile.php?id=100009016844805"><Facebook style={{fontSize:"20px",color:"white"}}/></a>
       &nbsp;<a href="https://www.instagram.com/niraj.sam/"><Instagram style={{fontSize:"20px",color:"white"}}/></a>
       &nbsp;<a href="https://www.linkedin.com/in/niraj-kumar-7625281b8/"><Linkedin style={{fontSize:"20px",color:"white"}}/></a></div>
-      <div class="p-2">term and conditions</div>
+      <div class="p-2">t&c</div>
       </div>
       
     </footer>

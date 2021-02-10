@@ -3,13 +3,16 @@ import { Carousel } from 'react-bootstrap';
 import MyWork from './MyWork';
 import About from './About';
 import Contact from './Contact'
+import c1 from '../../src/videos/c1.jpg'
+import c2 from '../../src/videos/c2.jpg'
+import c3 from '../../src/videos/c3.jpg'
 
 
 
 function home() {
   return (
     <div style={{justifyContent:"center"}} className="home">
-    <header ><h2 className=" marquee" >welcome to Niraj sam's official website</h2></header>
+    <header ><div className="marquee text-center"><h2  >welcome to Niraj sam's official website</h2></div></header>
     <main>
     <div className="corosel" style={{justifyContent:"center"}}>
     <Carousel>
@@ -17,7 +20,7 @@ function home() {
   
     <img
       className=" w-100"
-      src="https://www.forecasttrendz.com/images/sample/portfolio12-big.jpg"
+      src={c1}
       alt="First slide"
       height="500"
     />
@@ -29,7 +32,7 @@ function home() {
   <Carousel.Item interval={500}>
     <img
       className="w-100"
-      src="https://i.ytimg.com/vi/dtsrVjMG_nU/maxresdefault.jpg"
+      src={c2}
       alt="Third slide"
       height="500"
     />
@@ -41,7 +44,7 @@ function home() {
   <Carousel.Item>
     <img
       className="w-100"
-      src="https://media.gettyimages.com/photos/business-concept-decide-commit-focus-success-wood-block-picture-id1201418769?s=612x612"
+      src={c3}
       alt="Third slide"
       height="500"
     />
