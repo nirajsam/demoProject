@@ -9,7 +9,7 @@ import Contact from './Contact'
 function home() {
   return (
     <div style={{justifyContent:"center"}}>
-    <header ><h2 className="center" ><marquee>welcome to Niraj sam's official website</marquee></h2></header>
+    <header ><h2 className="text-center" >welcome to Niraj sam's official website</h2></header>
     <main>
     <div className="corosel" style={{justifyContent:"center"}}>
     <Carousel>

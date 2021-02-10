@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import video from '../../src/videos/ekart_record.mp4'
 import qvideo from '../../src/videos/quiz_record.mp4'

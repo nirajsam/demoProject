@@ -43,8 +43,8 @@ function App() {
     <footer className="bg-dark footer fixed-bottom">
       <div class="d-flex justify-content-between mb-3">
       <div class="p-2">&copy;  copyright Niraj sam</div>
-      <div class="p-2"><a href=""><Facebook style={{fontSize:"20px",color:"white"}}/></a>
-      &nbsp;<a href=""><Instagram style={{fontSize:"20px",color:"white"}}/></a>
+      <div class="p-2"><a href="https://www.facebook.com/profile.php?id=100009016844805"><Facebook style={{fontSize:"20px",color:"white"}}/></a>
+      &nbsp;<a href="https://www.facebook.com/profile.php?id=100009016844805"><Instagram style={{fontSize:"20px",color:"white"}}/></a>
       &nbsp;<a href="https://www.linkedin.com/in/niraj-kumar-7625281b8/"><Linkedin style={{fontSize:"20px",color:"white"}}/></a></div>
       <div class="p-2">term and conditions</div>
       </div>
