@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Hexagon, DiResponsive} from 'react-bootstrap-icons';
+
 import resume from '../../src/videos/Resume_Niraj-compressed.pdf'
 import profile from '../../src/videos/sam.jpg'
 
@@ -8,7 +8,7 @@ function About() {
     return (
         <div className="about center">
     
-        <img src={profile} className="profile"  style={{borderRadius:"50%",transform: "rotate(-90deg)"}}/>
+        <img src={profile} className="profile" alt=""  style={{borderRadius:"50%",transform: "rotate(-90deg)"}}/>
         <div className="container">
             <h4 className="text-center"><b>Niraj Kumar Modi</b></h4>
             <div className="jumbotron text-center">

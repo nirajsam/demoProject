@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Navbar, Nav,Container,NavDropdown } from 'react-bootstrap';
-import {BrowserRouter,Route,Link, Redirect,Switch} from 'react-router-dom'
+import { Navbar, Nav} from 'react-bootstrap';
+import {BrowserRouter,Route,Link, Redirect} from 'react-router-dom'
 import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
@@ -17,20 +17,20 @@ function App() {
     <BrowserRouter>
     <div className="App">
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <img src={profile}  width="30" height="30" style={{borderRadius:"50%",transform: "rotate(-90deg)"}}/>
+    <img src={profile}  width="30" height="30" alt="" style={{borderRadius:"50%",transform: "rotate(-90deg)"}}/>
       <span className="home"><Link to="/home" id="link" ><b className="text-left">Home</b></Link></span>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link id="lk"><Link to="/about" id="link" >About Me</Link></Nav.Link>
           <Nav.Link id="lk" href="#pricing"><Link to="/mywork" id="link">My Work</Link></Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+          {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> */}
         </Nav>
         <Nav>
           

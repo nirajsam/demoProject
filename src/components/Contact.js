@@ -1,14 +1,13 @@
 
-import React, {useEffect, useState,useRef} from 'react';
+import React, {useState} from 'react';
 import { Facebook, Instagram, Linkedin } from 'react-bootstrap-icons';
-import { Switch } from 'react-router-dom';
+
 import emailjs from 'emailjs-com'
 
 function Contact() {
     const [email, setEmail] = useState('');
     const [name, setName]=useState('');
     const [message, setMessage] = useState('');
-    const [error, setError] = useState(null);
     const [mail, setMail] = useState('')
     // const [disabled, setDisabled] = useState(true)
     function sendEmail(e) {
@@ -78,7 +77,7 @@ function Contact() {
                       </label><br/>
             <button className="btn btn-primary" type="submit">Submit</button>
           </form>
-          <h3 className="text-center">{(mail=='success')?<b className="text-success">Successfully sent</b>:(mail=='error')?<b className="text-danger">Mail errror</b>:''}</h3>
+          <h3 className="text-center">{(mail==='success')?<b className="text-success">Successfully sent</b>:(mail==='error')?<b className="text-danger">Mail errror</b>:''}</h3>
           </div>
              </div>
            </div>

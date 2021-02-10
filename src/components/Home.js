@@ -1,5 +1,5 @@
-import react from 'react';
-import { Button, Navbar, Nav,Container,NavDropdown,Carousel } from 'react-bootstrap';
+
+import { Carousel } from 'react-bootstrap';
 import MyWork from './MyWork';
 import About from './About';
 import Contact from './Contact'

@@ -5,7 +5,7 @@ import video from '../../src/videos/ekart_record.mp4'
 import qvideo from '../../src/videos/quiz_record.mp4'
 import car from '../../src/videos/car.mp4'
 import VideoP from './VideoP';
-import {Link} from 'react-router-dom'
+
 
 export default class MyWork extends Component {
     constructor(){
@@ -19,7 +19,7 @@ export default class MyWork extends Component {
     }
     render() {
         console.log(this.state.selectVideo)
-        if(this.state.selectVideo!=""){
+        if(this.state.selectVideo!==""){
             return <VideoP sel={this.state.selectVideo}/>
         }
         return (

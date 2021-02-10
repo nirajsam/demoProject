@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+
 import video from '../../src/videos/ekart_record.mp4'
 import qvideo from '../../src/videos/quiz_record.mp4'
 import car from '../../src/videos/car.mp4'
 
 function VideoP(props) {
-    const [state, setstate] = useState('')
+    
 
-    if(props.sel=='test'){
+    if(props.sel==='test'){
     return (
         <div className="row">
             
@@ -31,7 +31,7 @@ function VideoP(props) {
             </div>
         </div>
         
-    )}else if(props.sel=='ekart'){
+    )}else if(props.sel==='ekart'){
         return(
         <div className="row" style={{padding:"1%", marginBottom:"5%"}}>
             
@@ -50,7 +50,7 @@ function VideoP(props) {
             </div>
             
         </div>)
-    }else if(props.sel=='car'){
+    }else if(props.sel==='car'){
         return(
         <div className="row" style={{padding:"1%", marginBottom:"5%"}}>
             
