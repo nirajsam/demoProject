@@ -18,7 +18,7 @@ function App() {
     <div className="App">
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <img src={profile}  width="30" height="30" alt="" style={{borderRadius:"50%",transform: "rotate(-90deg)"}}/>
-      <span className="home"><Link to="/home" id="link" ><b className="text-left">Home</b></Link></span>
+      <span className="home"><Link to="/" id="link" ><b className="text-left">Home</b></Link></span>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -53,11 +53,11 @@ function App() {
     </div>
     <div className="content">
               {/* <Route path="/upload" component={FileUpload}/> */}
-              <Route path={"/home"}component={Home}/>
-              <Route path="/" exact={true}><Redirect to="/home"></Redirect></Route>
+              <Route path={"/"} exact={true}component={Home}/>
               <Route path={"/contact"}component={Contact}/>
               <Route path={"/about"}component={About}/>
               <Route path={"/mywork"}component={MyWork}/> 
+              <Route path="/*" exact={true}><Redirect to="/"></Redirect></Route>
     </div>
     
     </BrowserRouter>
