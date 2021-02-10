@@ -33,12 +33,12 @@ function Contact() {
              <div className="col-lg-6">
                <p>Hello....</p>
               <p>Do you speak Hindi  ??... It's ok if you don't, I speak English too</p>
-              <Facebook/>&nbsp; &nbsp;<span>Like me on facebook</span><br/><br/>
-              <Instagram/>&nbsp; &nbsp; <span>Follow me on Instagram</span><br/><br/>
-              <Linkedin/>&nbsp; &nbsp;<span>connect me on linkedin</span><br/><br/>
+              <a href="https://www.facebook.com/profile.php?id=100009016844805" style={{color:"white"}}><Facebook  height="30px" width="30px" style={{color:"blue"}}/>&nbsp; &nbsp;<span>Like me on facebook</span></a><br/><br/>
+              <a href="https://www.instagram.com/niraj.sam/" style={{color:"white"}}><Instagram  height="30px" width="30px" style={{color:"red"}}/>&nbsp; &nbsp; <span>Follow me on Instagram</span></a><br/><br/>
+              <a href="https://www.linkedin.com/in/niraj-kumar-7625281b8/" style={{color:"white"}}><Linkedin height="30px" width="30px" style={{color:"blue"}}/>&nbsp; &nbsp;<span>connect me on linkedin</span></a><br/><br/>
              </div>
              <div className="col-lg-6">
-                <h5 style={{color:"grey"}}>have a question or want to work together??</h5><br/>
+                <h5 style={{color:"black"}}>Have a question or want to work together??</h5><br/>
                 <div className="container">
                 <form className="query" onSubmit={sendEmail}>
                           

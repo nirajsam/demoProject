@@ -18,7 +18,7 @@ export default class MyWork extends Component {
         this.setState({selectVideo:vid})
     }
     render() {
-        console.log(this.state.selectVideo)
+        
         if(this.state.selectVideo!==""){
             return <VideoP sel={this.state.selectVideo}/>
         }

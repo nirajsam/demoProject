@@ -12,7 +12,7 @@
 }
 .contact{
   
-    background-image: url("https://img.freepik.com/free-photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-address-customer-service-call-center-contact-us-concept_20693-208.jpg?size=626&ext=jpg");
+    background-image: url("https://lh3.googleusercontent.com/proxy/K4V3mVwJojIi_DRV4t8T4y9N5obMtcoPw1A13XHif0OkTZWFHjd5bYywavvTD2Mykvz_ROZgF1nYhV0hG9LSwUo-cjPYFXUSUkEe71-fBKQHYRLpVgQDlOqnXu1ATEV4pYj1HII");
     background-repeat: no-repeat;
     background-size: cover;
     height: 570px;
@@ -44,7 +44,7 @@
   bottom: 0;
   width: 100%;
   height: 40px;
-  
+  z-index: 1;
   color: aliceblue;
   
   
@@ -99,6 +99,22 @@
     height: 100px;
   }
  }
+ .marquee {
+  position: relative;
+  animation: marquee 8s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(100%, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+body{
+  overflow-x: hidden;
+}
 /* .container {
   width: 30em;
   height: 30em;

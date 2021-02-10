@@ -23,7 +23,7 @@ function App() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link id="lk"><Link to="/about" id="link" >About Me</Link></Nav.Link>
-          <Nav.Link id="lk" href="#pricing"><Link to="/mywork" id="link">My Work</Link></Nav.Link>
+          <Nav.Link id="lk"><Link to="/mywork" id="link">My Work</Link></Nav.Link>
           {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -44,7 +44,7 @@ function App() {
       <div class="d-flex justify-content-between mb-3">
       <div class="p-2">&copy;  copyright Niraj sam</div>
       <div class="p-2"><a href="https://www.facebook.com/profile.php?id=100009016844805"><Facebook style={{fontSize:"20px",color:"white"}}/></a>
-      &nbsp;<a href="https://www.facebook.com/profile.php?id=100009016844805"><Instagram style={{fontSize:"20px",color:"white"}}/></a>
+      &nbsp;<a href="https://www.instagram.com/niraj.sam/"><Instagram style={{fontSize:"20px",color:"white"}}/></a>
       &nbsp;<a href="https://www.linkedin.com/in/niraj-kumar-7625281b8/"><Linkedin style={{fontSize:"20px",color:"white"}}/></a></div>
       <div class="p-2">term and conditions</div>
       </div>

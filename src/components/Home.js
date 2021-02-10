@@ -8,8 +8,8 @@ import Contact from './Contact'
 
 function home() {
   return (
-    <div style={{justifyContent:"center"}}>
-    <header ><h2 className="text-center" >welcome to Niraj sam's official website</h2></header>
+    <div style={{justifyContent:"center"}} className="home">
+    <header ><h2 className=" marquee" >welcome to Niraj sam's official website</h2></header>
     <main>
     <div className="corosel" style={{justifyContent:"center"}}>
     <Carousel>
@@ -22,7 +22,7 @@ function home() {
       height="500"
     />
     <Carousel.Caption>
-      <h3>Hello...</h3>
+      <h2 style={{color:"blue"}}>Hello...</h2>
       <p></p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -34,7 +34,7 @@ function home() {
       height="500"
     />
     <Carousel.Caption>
-      <h3>people!!!</h3>
+      <h2 style={{color:"blue"}}>people!!!</h2>
       <p></p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -46,7 +46,7 @@ function home() {
       height="500"
     />
     <Carousel.Caption>
-      <h3>...........</h3>
+      <h2 style={{color:"blue"}}>...........</h2>
       <p></p>
     </Carousel.Caption>
   </Carousel.Item>
